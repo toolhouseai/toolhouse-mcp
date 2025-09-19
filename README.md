@@ -1,6 +1,6 @@
 # Toolhouse MCP Server
 
-![Toolhouse MCP Server implementation](assets/mcp-server-toolhouse-banner.svg)
+![Toolhouse MCP Server implementation](assets/mcp-server-toolhouse-banner.png)
 
 This MCP server allows you to connect MCP clients with Toolhouse's tools. Built on top of [Toolhouse](https://toolhouse.ai/).
 
