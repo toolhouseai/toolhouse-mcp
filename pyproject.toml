@@ -1,0 +1,28 @@
+[project]
+name = "mcp-server-toolhouse"
+version = "0.2.0"
+description = "All the high-quality toolhouse tools in one place, accessible as one MCP server"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+ "mcp>=1.2",
+ "httpx>=0.28.1",
+]
+authors = [
+    {name = "orliesaurus", email = "orlando@toolhouse.ai"}
+]
+
+[project.scripts]
+mcp_server_toolhouse = "mcp_server_toolhouse:main"
+
+[build-system]
+requires = [ "hatchling",]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[dependency-groups]
+dev = [
+    "mcp[cli]>=1.2.1",
+]
